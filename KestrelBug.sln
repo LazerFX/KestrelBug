@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E96E7EE-1F69-4612-93DB-F4D9B1A99575}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85A2534F-CE28-4EC4-A919-82586280F39D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KestrelBug", "src\KestrelBug\KestrelBug.xproj", "{F1DE26D5-019B-45C1-BF88-7BED3B8A614B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1DE26D5-019B-45C1-BF88-7BED3B8A614B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DE26D5-019B-45C1-BF88-7BED3B8A614B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DE26D5-019B-45C1-BF88-7BED3B8A614B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DE26D5-019B-45C1-BF88-7BED3B8A614B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1DE26D5-019B-45C1-BF88-7BED3B8A614B} = {0E96E7EE-1F69-4612-93DB-F4D9B1A99575}
+	EndGlobalSection
+EndGlobal
